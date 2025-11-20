@@ -2,13 +2,9 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 
-/* ----- INCLUDES ----- */
 # include <unistd.h>
-# include <stdlib.h> // Pour size_t, malloc, free// Pour write
-# include <stddef.h> // Une bonne pratique pour size_t
-
-/* ----- PROTOTYPES ----- */
-/* ----- PARTIE 1 - FONCTIONS DE LA LIBC ----- */
+# include <stdlib.h>
+# include <stddef.h>
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *s, size_t n);
@@ -28,7 +24,6 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 
-/* ----- PARTIE 2 - FONCTIONS ADDITIONNELLES ----- */
 
 char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);
