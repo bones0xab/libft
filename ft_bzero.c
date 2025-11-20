@@ -1,3 +1,5 @@
+# include "libft.h"
+
 void    ft_bzero(void *p, size_t n)
 {
     unsigned char   *t;

@@ -1,3 +1,5 @@
+# include "libft.h"
+
 int     *ft_memchr(const    void *p, int c, size_t n)
 {
     const   unsigned *pt1;

@@ -1,3 +1,5 @@
+# include "libft.h"
+
 int     ft_memcmp(const   void  *a,const   void *b, size_t n)
 {
     size_t  i;
