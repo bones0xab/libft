@@ -52,7 +52,7 @@ char    *ft_itoa(int n)
 
     num = n;
 
-    nlen = ccountnum(num);
+    nlen = cccountnum(num);
 	res = ft_calloc(nlen + 1, sizeof(char));
 	if (!res)
 		return (NULL);

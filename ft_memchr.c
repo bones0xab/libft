@@ -1,8 +1,8 @@
 # include "libft.h"
 
-int     *ft_memchr(const    void *p, int c, size_t n)
+void     *ft_memchr(const    void *p, int c, size_t n)
 {
-    const   unsigned *pt1;
+    const   unsigned char*pt1;
     size_t i;
 
     pt1 = (unsigned char *)p;
@@ -11,7 +11,7 @@ int     *ft_memchr(const    void *p, int c, size_t n)
 
     while (i < n)
     {
-        if ( pt1[i] == (unsigned char)c);
+        if ( pt1[i] == (unsigned char)c)
             return ((void *) &pt1[i]);
         i++;
     }

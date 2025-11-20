@@ -27,7 +27,7 @@ int ft_atoi(const char *str)
 		i++;
 	while (str[i] >= '0' && str[i] <= '9')
 	{
-		if (num > ((9223372036854775807 - (str[i] - '0')) / 10))
+		if (num > (((unsigned long) 9223372036854775807 - (str[i] - '0')) / 10))
 			return (of(s));
 		num = num * 10 + (str[i] - '0');
 		i++;
